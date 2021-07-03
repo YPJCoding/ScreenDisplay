@@ -9,13 +9,14 @@ import FullScreenContainer from "@/components/FullScreenContainer";
 export default {
   name: 'Home',
 	data(){
-  	return{
-
-	  }
+  	return{}
 	},
   components: {
 	  FullScreenContainer
   },
+	mounted() {
+		document.title = "Android手机综合数据"
+	},
 	methods:{
 
 	}

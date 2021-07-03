@@ -18,9 +18,6 @@ export default {
 	methods: {
 		screenFullClick() {
 			screenFull.toggle()
-			// if (screenFull.isEnabled) {
-			// 	screenFull.request();
-			// }
 		}
 	}
 }
